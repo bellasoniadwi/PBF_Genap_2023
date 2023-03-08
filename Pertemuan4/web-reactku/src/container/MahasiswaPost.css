@@ -1,0 +1,54 @@
+.mahasiswa{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.gambar-mahasiswa{
+    height: 120px;
+    width: 120px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.gambar-mahasiswa img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.konten-mahasiswa{
+    flex: 1;
+}
+
+.konten-mahasiswa div.nim-mahasiswa{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.konten-mahasiswa p.isi-mahasiswa{
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.konten-mahasiswa button.btn-sm{
+    background-color: purple;
+    color: white;
+    border-color: azure;
+    width: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pb-2 button.btn-simpan{
+    background-color: palevioletred;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    width: 100px;
+    border-color: pink;
+}

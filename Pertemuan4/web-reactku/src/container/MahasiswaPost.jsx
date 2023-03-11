@@ -17,7 +17,7 @@ class MahasiswaPost extends Component {
     }
 
     ambilDataDariServerAPI = () => {    
-        fetch('http://localhost:3002/mahasiswa') // alamat URL API yang ingin kita ambil datanya
+        fetch('http://localhost:3002/mahasiswa?_sort=id&_order=desc') // alamat URL API yang ingin kita ambil datanya
             .then(response => response.json())  // ubah response data dari URL API menjadi sebuah data json
             .then(jsonHasilAmbilDariAPI => {
                 this.setState({

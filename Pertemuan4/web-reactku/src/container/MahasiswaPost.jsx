@@ -5,7 +5,7 @@ import './MahasiswaPost.css';
 class MahasiswaPost extends Component {
     state = {               // komponen state dari React untuk statefull component
         listMahasiswa: [],  // variabel array yang digunakan untuk menyimpan data API
-        insertArtikel:{     // variabel yang digunakan untuk menampung sementara data yang akan diinsert
+        insertMahasiswa:{     // variabel yang digunakan untuk menampung sementara data yang akan diinsert
             NIM: "",      // kolom mengikuti kolom yang ada pada listMahasiswa.json
             id: 1,
             nama: "",
